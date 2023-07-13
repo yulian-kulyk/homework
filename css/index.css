@@ -1,0 +1,20 @@
+@import url(global.css);
+@import url(header.css);
+@import url(footer.css);
+@import url(index.header-content.css);
+@import url(index.product-of-the-week.css);
+
+
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+.items {
+    background-color: cadetblue;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+}
